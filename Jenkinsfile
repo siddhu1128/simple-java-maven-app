@@ -5,10 +5,6 @@ pipeline{
             dir '.'
         }
     }
-    tools{
-        maven: "Maven"
-        java: "java"
-    }
     stages{
         stage("build"){
             steps{
