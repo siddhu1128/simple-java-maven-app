@@ -1,10 +1,9 @@
 pipeline{
-    agent any{
+    agent any
         dockerfile{
             filename 'Dockerfile'
             dir '.'
         }
-    }
     tools{
         maven: "Maven"
         java: "java"
