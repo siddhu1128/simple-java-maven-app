@@ -6,8 +6,8 @@ pipeline{
         }
     }
     tools{
-        maven: "Maven-3.6.0"
-        java: "openjdk-8-jdk"
+        maven: "Maven"
+        java: "java"
     }
     stages{
         stage("build"){
